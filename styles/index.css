@@ -1,1 +1,45 @@
+body {
+  font-family: 'Mulish';
+}
+  
+main {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 0 30px;
+}
 
+main a img {
+  width: 195px;
+  height: 195px;
+  border-radius: 50%;
+  margin: auto;
+}
+
+main a .t-img {
+  font-size: 10px;
+  text-align: center;
+  opacity: 70%;
+  padding: 0;
+}
+
+main a {
+  text-decoration-color: black;
+  color: black;
+  margin: 5px 0;
+}
+
+main h1 {
+  font-size: 18px;
+}
+
+main p {
+  font-size: 16px;
+  padding: 0 30px;
+}
+
+main h1, p {
+  margin: 0;
+  text-align: center;
+}
